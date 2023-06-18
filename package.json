@@ -1,0 +1,30 @@
+{
+  "name": "goit-node-hw-1",
+  "version": "1.0.0",
+  "homepage": "https://ceresrasmussen.github.io/test-task-tweet/goit-node-hw-1",
+  "description": "Goit Node.js homework",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": " nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://ceresrasmussen.github.io/test-task-tweet/goit-node-hw-1"
+  },
+  "keywords": [
+    "Node.Js"
+  ],
+  "author": "Volodymyr Sobko",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "commander": "^11.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "nanoid": "^3.3.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
